@@ -1,0 +1,1 @@
+web: gunicorn modelsproj7.wsgi
