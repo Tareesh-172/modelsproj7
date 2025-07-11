@@ -19,5 +19,5 @@ from django.urls import path
 from modapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("taree/",views.refView)
+    path('',views.refView)
 ]
